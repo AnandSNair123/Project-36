@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //Add here
+      var firebaseConfig = {
+    apiKey: "AIzaSyD7BUb8O3z_ha5Y_LTbwHbgkG2Ahqbbwgs",
+    authDomain: "feed-the-dog-d5389.firebaseapp.com",
+    projectId: "feed-the-dog-d5389",
+    storageBucket: "feed-the-dog-d5389.appspot.com",
+    messagingSenderId: "877301182077",
+    appId: "1:877301182077:web:589da1f8cde3dadf784b14"
+  };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Food.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
